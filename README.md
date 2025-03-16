@@ -31,4 +31,24 @@ The analysis is based on a dataset comprising 632,073 records, with each record 
 
 ![Data Model](datamodel.jpg)
 
-
+# The analytical process
+- Data Exploration and Cleaning: Initial exploration to understand the data structure, identify potential missing values or inconsistencies, and perform necessary data cleaning steps.
+- Feature Engineering: Creating new relevant features from the existing data, such as extracting the day of the week and month from the date, extracting ordering hours from time and categorizing time into different periods (e.g., lunch, dinner).
+- Exploratory Data Analysis (EDA): Utilizing various statistical and visualization techniques to uncover patterns and trends in the data. This included analyzing:
+  - Sales volume and revenue trends over time (daily, weekly, monthly).
+  - Distribution of orders across different days of the week and day types (weekday vs. weekend).
+  - Peak ordering hours throughout the day.
+  - Popularity of different pizza sizes and categories.
+  - Top-selling pizza names.
+  - Revenue generated from different pizza categories and sizes.
+- Dashboard Creation: Developing dashboard to effectively communicate the key findings and insights to stakeholders. The dashboard visually represents metrics such as:
+  - Total Orders and Quantity
+  - Total Revenue
+  - Average Order Value
+  - Weekday vs. Weekend Revenue
+  - Revenue trends by day of the week
+  - Monthly Revenue trends
+  - Peak Ordering Hours
+  - Pizza Category popularity by quantity
+  - Pizza Size popularity by quantity
+  - Top-selling pizza names by quantity
