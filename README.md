@@ -12,6 +12,24 @@ A data-driven study of pizza sales leveraging PostgreSQL for analysis and Excel 
 - In today's competitive food service industry, understanding customer preferences and sales dynamics is crucial for success.
 - This project addresses the need for a pizza business to gain a deeper understanding of its sales data to make informed decisions regarding marketing campaigns, inventory management, staffing, and product development.
 
+# Data Description:
+The dataset follows a **Snowflake Schema**, meaning the data is normalized into multiple related tables to reduce redundancy and improve efficiency. Fact tables store transactional data, while dimension tables contain descriptive attributes, ensuring a structured and optimized database design.
+
+
+`order_id`: Unique identifier per transaction line.
+
+`date`: The date each order was placed (formatted as mm/dd/yyyy).
+
+`day_type`: Classified as “Weekday” or “Weekend.”
+
+`time`: Time-based insights to find peak ordering hours.
+
+`quantity`, `price`: Essential for computing total revenue.
+
+`size`: Pizza size (S, M, L, XL, XXL).
+
+`name`, `category`, `ingredients`: Detailed breakdown of pizza variety.
+
 
 
 
