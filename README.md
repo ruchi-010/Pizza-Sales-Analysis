@@ -15,12 +15,11 @@ A data-driven study of pizza sales leveraging PostgreSQL for analysis and Excel 
 # Data Description:
 The dataset follows a **Snowflake Schema**, meaning the data is normalized into multiple related tables to reduce redundancy and improve efficiency. Fact tables store transactional data, while dimension tables contain descriptive attributes, ensuring a structured and optimized database design.
 
+The analysis is based on a dataset comprising 632,073 records, with each record representing a single pizza order. The dataset includes detailed information such as:
 
 `order_id`: Unique identifier per transaction line.
 
 `date`: The date each order was placed (formatted as mm/dd/yyyy).
-
-`day_type`: Classified as “Weekday” or “Weekend.”
 
 `time`: Time-based insights to find peak ordering hours.
 
