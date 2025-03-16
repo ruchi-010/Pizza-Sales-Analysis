@@ -52,3 +52,27 @@ The analysis is based on a dataset comprising 632,073 records, with each record 
   - Pizza Category popularity by quantity
   - Pizza Size popularity by quantity
   - Top-selling pizza names by quantity
+
+# Key Findings and Insights
+The analysis revealed several crucial insights into pizza sales:
+- **Revenue Dominance:** The business generated a significant total revenue of $801,944.7 from the processed orders.
+  
+- **Weekday Strength:** Weekdays contribute substantially to the overall revenue, with $583,814.65 generated during these days.
+  
+- **Weekend Surge:** Weekends also represent a significant portion of sales, contributing $218,130.05 in revenue.
+  
+- **Average Order Value:** The average order value stands at $38.31.
+  
+- **Friday is King:** Friday consistently shows the highest sales volume and revenue compared to other weekdays, suggesting a potential opportunity for targeted promotions.
+  
+- **Midweek Consistency:** Sales remain relatively steady throughout the midweek days (Tuesday, Wednesday, Thursday).
+  
+- **Summer Peak:** The summer months (June, July, August) appear to be the strongest in terms of revenue, while the fall months (September, October, November) show a dip. This seasonality should be considered for inventory planning and marketing efforts.
+  
+- **Lunch and Dinner Rush:** Peak ordering hours are concentrated around lunchtime (12 PM - 1 PM) and the early evening (6 PM - 8 PM), indicating the need for adequate staffing during these periods.
+  
+- **Classic Category Leads:** The 'Classic' pizza category is the most popular in terms of quantity sold, followed by 'Supreme', 'Veggie', and then 'Chicken'. The 'Chicken' category appears to lag behind, suggesting potential for exploring new chicken-based offerings or targeted promotions.
+  
+- **Large and Medium Reign:** Large (L) and Medium (M) are the most preferred pizza sizes, accounting for a significant portion of sales. Extra-large (XL) and extra-extra-large (XXL) sizes have minimal sales, which might warrant a review of their profitability or marketing strategy. Small (S) pizzas also have a relatively low share.
+  
+- **Top Pizza Performers:** The top 5 most popular pizzas drive a significant portion of the sales, each representing 20% of the top-selling items. These include "The Thai Chicken Pizza", "The Barbecue Chicken Pizza", "The Pepperoni Pizza", "The Classic Deluxe Pizza", and "The Hawaiian Pizza". This highlights the importance of these core menu items.
