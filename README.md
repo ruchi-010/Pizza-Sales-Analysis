@@ -30,7 +30,6 @@ The dataset follows a **Snowflake Schema**, meaning the data is normalized into 
 
 `name`, `category`, `ingredients`: Detailed breakdown of pizza variety.
 
-
-
+![Data Model](datamodel.jpg)
 
 
