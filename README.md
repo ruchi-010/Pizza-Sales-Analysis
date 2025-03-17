@@ -32,26 +32,31 @@ The analysis is based on a dataset comprising 632,073 records, with each record 
 ![Data Model](datamodel.jpg)
 
 # The analytical process
-- Data Exploration and Cleaning: Initial exploration to understand the data structure, identify potential missing values or inconsistencies, and perform necessary data cleaning steps.
-- Feature Engineering: Creating new relevant features from the existing data, such as extracting the day of the week and month from the date, extracting ordering hours from time and categorizing time into different periods (e.g., lunch, dinner).
-- Exploratory Data Analysis (EDA): Utilizing various statistical and visualization techniques to uncover patterns and trends in the data. This included analyzing:
-  - Sales volume and revenue trends over time (daily, weekly, monthly).
-  - Distribution of orders across different days of the week and day types (weekday vs. weekend).
-  - Peak ordering hours throughout the day.
-  - Popularity of different pizza sizes and categories.
-  - Top-selling pizza names.
-  - Revenue generated from different pizza categories and sizes.
-- Dashboard Creation: Developing dashboard to effectively communicate the key findings and insights to stakeholders. The dashboard visually represents metrics such as:
-  - Total Orders and Quantity
-  - Total Revenue
-  - Average Order Value
-  - Weekday vs. Weekend Revenue
-  - Revenue trends by day of the week
-  - Monthly Revenue trends
-  - Peak Ordering Hours
-  - Pizza Category popularity by quantity
-  - Pizza Size popularity by quantity
-  - Top-selling pizza names by quantity
+
+1. **Data Extraction & Cleaning**  
+   - Imported raw sales data and performed schema validation to ensure consistency.  
+   - Handled missing values by applying imputation techniques and removed duplicate records to maintain data integrity.  
+   - Standardized date formats and derived additional time-based attributes such as `month`, `day_name`, `ordering_hours` and `weekend_flag` for enhanced temporal analysis.  
+
+2. **Schema Design & Data Modeling**  
+   - The dataset follows a **Snowflake Schema**, where the fact table `sales` is linked to normalized dimension tables like `products`, `customers`, and `time`.  
+   - This design reduces data redundancy while preserving relational integrity, enabling efficient analytical queries.  
+
+3. **Feature Engineering & Enrichment**  
+   - Created new features such as `average order value`, `total discount applied`, and `sales per product category` to derive deeper insights.  
+   - Encoded categorical variables for improved query performance and downstream modeling.  
+
+4. **Exploratory Data Analysis (EDA)**  
+   - Analyzed sales distribution, order frequency, and discount utilization to identify trends and patterns.  
+   - Used visualizations like histograms and boxplots to detect outliers and understand variations in sales performance.  
+
+5. **SQL & Analytical Queries**  
+   - Leveraged **PostgreSQL** to compute aggregated metrics such as `total sales`, `discount impact on revenue`, and `customer purchase patterns`.  
+   - Applied **window functions** (e.g., `SUM() OVER()`, `AVG() OVER()`) to analyze rolling sales trends over time.  
+
+6. **Dashboard Development**  
+   - Built an interactive **Excel dashboard** to visualize key metrics, including `total revenue`, `order count`, and `product category-wise sales trends`.  
+   - Utilized **pivot tables and charts** for an intuitive data exploration experience.  
 
 # Key Findings and Insights
 The analysis revealed several crucial insights into pizza sales:
