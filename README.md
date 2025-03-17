@@ -109,4 +109,17 @@ The analysis revealed several crucial insights into pizza sales:
    - **Recommendation:** Develop a targeted seasonal marketing calendar that capitalizes on the robust summer period with premium promotions and new product offerings, while implementing special fall campaigns—such as exclusive loyalty initiatives and discount bundles—to counteract the seasonal dip.  
    - **Expected Impact:** By addressing the fall downturn and leveraging the high-selling summer period, the strategy will help smooth out seasonal fluctuations, ensuring a more consistent revenue stream throughout the year.
 
+# Tools & Methodologies
+
+- **PostgreSQL for Data Processing:**  
+  Handled around 603,200 records with a Snowflake Schema, ensuring data is normalized and query performance is optimized.  
+  More details in the [SQL Analysis Presentation](sql_analysis_presentation.pdf).
+
+- **SQL Query Engineering:**  
+  Implemented efficient SQL scripts to extract vital sales metrics.  
+  Check out the code in [Pizza Sales Code](pizza%20sales%20code.sql).
+
+- **Excel for Data Transformation & Visualization:**  
+  The cleaned and aggregated data was transformed and visualized in Excel, creating a dynamic dashboard for actionable insights.  
+  Access the transformation process in [Excel Transformed Data](transformed_data_sales.xlsx).
 
