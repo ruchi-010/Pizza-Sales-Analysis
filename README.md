@@ -81,3 +81,32 @@ The analysis revealed several crucial insights into pizza sales:
 - **Large and Medium Reign:** Large (L) and Medium (M) are the most preferred pizza sizes, accounting for a significant portion of sales. Extra-large (XL) and extra-extra-large (XXL) sizes have minimal sales, which might warrant a review of their profitability or marketing strategy. Small (S) pizzas also have a relatively low share.
   
 - **Top Pizza Performers:** The top 5 most popular pizzas drive a significant portion of the sales, each representing 20% of the top-selling items. These include "The Thai Chicken Pizza", "The Barbecue Chicken Pizza", "The Pepperoni Pizza", "The Classic Deluxe Pizza", and "The Hawaiian Pizza". This highlights the importance of these core menu items.
+
+# Business Recommendations
+
+1. **Elevate Weekend Sales Performance**  
+   - **Observation:** Weekend revenue is significantly lower compared to weekdays.  
+   - **Recommendation:** Launch exclusive “Weekend Family Combos” or “Sunday Brunch Specials” to stimulate demand. Offer limited-time discounts or loyalty rewards to encourage increased weekend orders.  
+   - **Expected Impact:** This will help balance the revenue gap between weekdays and weekends and attract more group or family orders.
+
+2. **Refine Product Portfolio & Inventory Management**  
+   - **Observation:** Large and Medium pizzas dominate sales, while underperforming sizes (e.g., XXL) yield minimal returns.  
+   - **Recommendation:** Consider phasing out XXL pizzas or running targeted promotions (such as “XXL Party Deal”) to optimize inventory and reduce storage costs.  
+   - **Expected Impact:** Streamlining the product portfolio will reduce waste and free up resources for best-selling items.
+
+3. **Maximize Peak Hour Sales**  
+   - **Observation:** Orders peak at 12 PM – 1 PM and 6 PM – 8 PM, corresponding to lunch and dinner rushes.  
+   - **Recommendation:** Enhance staffing and kitchen throughput during these windows and introduce “Lunch Express Deals” and “Dinner Value Combos” to boost average order values.  
+   - **Expected Impact:** Improved service during peak hours will lead to higher customer satisfaction and increased revenue per transaction.
+
+4. **Promote High-Margin Categories**  
+   - **Observation:** Classic and Chicken pizzas consistently perform well.  
+   - **Recommendation:** Emphasize these categories in marketing efforts and consider cross-selling add-ons (e.g., sides or desserts) to increase overall ticket size.  
+   - **Expected Impact:** This strategy will enhance profitability by driving up the average order value.
+
+5. **Leverage Seasonal Trends**
+   -  **Observation:** Sales data reveals a distinct seasonal pattern: revenue consistently peaks during the summer months, while the fall season, particularly October, shows a significant decline in sales.  
+   - **Recommendation:** Develop a targeted seasonal marketing calendar that capitalizes on the robust summer period with premium promotions and new product offerings, while implementing special fall campaigns—such as exclusive loyalty initiatives and discount bundles—to counteract the seasonal dip.  
+   - **Expected Impact:** By addressing the fall downturn and leveraging the high-selling summer period, the strategy will help smooth out seasonal fluctuations, ensuring a more consistent revenue stream throughout the year.
+
+
